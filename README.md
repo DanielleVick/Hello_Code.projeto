@@ -4,7 +4,7 @@
 
 Repositório para o projeto Hello Code! - disciplina: PISI I - Projeto Interdisciplinar para Sistemas de Informação I
 
-Equipe: Danielle Victória e Larissa Galindo
+Equipe: Danielle Victória, Ester Souza e Larissa Galindo
 
 Docente responsável: Cleyton Magalhães
 
@@ -54,9 +54,10 @@ _____________________________________
 
   _____________________________________
 **Tecnologias utilizadas**
-
-
-  
+* Python
+* VsCode
+* Git
+* GitHub  
 _____________________________________
 **📖 Biblioteca**
 
