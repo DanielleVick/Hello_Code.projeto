@@ -19,7 +19,7 @@ Hello Code! é um jogo educativo voltado para iniciantes em programação,  send
 _____________________________________
 **Funcionalidades**
 
-**1ª Realease**
+***1ª Realease***
 
   •  Menu inicial 
   
@@ -35,14 +35,14 @@ _____________________________________
   
 	•	Fase 2: Conceitos básicos
 
-**2ª Release**
+***2ª Release***
 
 	•	Fase 3: Estruturas condicionais (if/else)
 	•	Fase 4: Estruturas de repetição
 	•	Fase 5: Desafio final
 	•	Desafios extras (mini jogos automatizados)
 
-**3ª Release**
+***3ª Release***
 
   * Interface do jogo 
   * ⁠Montagem do computador virtual como recompensa final
