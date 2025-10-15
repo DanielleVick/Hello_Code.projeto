@@ -62,7 +62,8 @@ _____________________________________
 * GitHub  
 _____________________________________
 **📖 Biblioteca**
-* re - usada para procurar padrões dentro de strings (e-mail, números)
+* re
+  - usada para procurar padrões dentro de strings (e-mail, números)
   - validar formatos (datas)
 
 
