@@ -35,30 +35,30 @@ def cadastro():
     while True:
         nome = input("\nNome do jogador: ").strip()
         if nome in jogadores:
-            print("❌ Já existe um jogador com esse nome. Tente outro.")
+            print("Já existe um jogador com esse nome. Tente outro.")
             continue
 
         while True:
             data_nascimento = input("Data de nascimento (DD/MM/AAAA): ").strip()
             if validar_data_nascimento(data_nascimento):
                 break
-            print("❌ Data inválida! Use o formato DD/MM/AAAA.")
+            print("Data inválida! Use o formato DD/MM/AAAA.")
 
         while True:
             senha = input("Senha: ").strip()
             if validar_senha(senha):
                 break
-            print("❌ Senha inválida! Deve ter de 6 a 10 caracteres, com 1 maiúscula e 1 especial.")
+            print("Senha inválida! Deve ter de 6 a 10 caracteres, com 1 maiúscula e 1 especial.")
 
         jogadores[nome] = {"data_nascimento": data_nascimento, "senha": senha}
-        print("✅ Jogador cadastrado com sucesso!")
+        print("Jogador cadastrado com sucesso!")
         break
 
 # ---------- ATUALIZAÇÃO ----------
 def atualizar_jogador():
     nome = input("\nNome do jogador para atualizar: ").strip()
     if nome not in jogadores:
-        print("❌ Jogador não encontrado.")
+        print("Jogador não encontrado.")
         return
 
     while True:
@@ -73,21 +73,21 @@ def atualizar_jogador():
                 nova_data = input("Nova data (DD/MM/AAAA): ").strip()
                 if validar_data_nascimento(nova_data):
                     jogadores[nome]["data_nascimento"] = nova_data
-                    print("✅ Data atualizada com sucesso!")
+                    print("Data atualizada com sucesso!")
                     break
-                print("❌ Data inválida! Tente novamente.")
+                print("Data inválida! Tente novamente.")
         elif opcao == "2":
             while True:
                 nova_senha = input("Nova senha: ").strip()
                 if validar_senha(nova_senha):
                     jogadores[nome]["senha"] = nova_senha
-                    print("✅ Senha atualizada com sucesso!")
+                    print("Senha atualizada com sucesso!")
                     break
-                print("❌ Senha inválida! Tente novamente.")
+                print("Senha inválida! Tente novamente.")
         elif opcao == "3":
             break
         else:
-            print("❌ Opção inválida.")
+            print("Opção inválida.")
 
 # ---------- MENU PRINCIPAL ----------
 def menu_principal():
@@ -105,7 +105,7 @@ def menu_principal():
         elif opcao == "3":
             break
         else:
-            print("❌ Opção inválida.")
+            print("Opção inválida.")
 
 # ---------- MENU DE JOGADORES ----------
 def menu():
@@ -125,10 +125,10 @@ def menu():
             menu_principal()
             break  # sai do menu de jogadores e vai pros níveis
         elif opcao == "4":
-            print("👋 Saindo do sistema...")
+            print("Saindo do sistema...")
             exit()
         else:
-            print("❌ Opção inválida.")
+            print("Opção inválida.")
 
 # ---------- FUNÇÕES DAS FASES ----------
 def passar_nivel():
