@@ -244,6 +244,6 @@ while rodando and nivel <= 3:
     elif nivel == 3:
         if nivel_3():
             nivel += 1
-            rodando = False
+        menu()
 
 print("Você passou da fase 1, parabéns!")
