@@ -62,8 +62,15 @@ _____________________________________
 * GitHub  
 _____________________________________
 **📖 Biblioteca**
-* re
-  - usada para procurar padrões dentro de strings (e-mail, números)
-  - validar formatos (datas)
+* os
+  - utilizada para limpar a tela do terminal durante o jogo
+* time
+  - utilizada para criar pequenas pausas entre mensagens, dando tempo para o jogador ler efeitos como "Carregando dados salvos..."
+* json
+  - utilizada para salvar e carregar os dados dos jogadores em um arquivo externo, permitindo que os dados fiquem salvos mesmo depois que o jogo é fechado
+* sys
+   - utilizada apenas no menu inicial para sair do jogo
+* datetime
+  - utilizada no cadastro para manipular e validar a data de nascimento dos jogadores
 
 
