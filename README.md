@@ -65,6 +65,9 @@ _____________________________________
 * GitHub  
 _____________________________________
 **📖 Biblioteca**
+
+* re
+  - utilizada para validar as senhas dos jogadores, garantindo que sigam os requisitos, evitando que utilizem caracteres inválidos na senha
 * os
   - utilizada para limpar a tela do terminal durante o jogo
 * time
