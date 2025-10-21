@@ -15,7 +15,9 @@ _____________________________________
 
 Hello Code! é um jogo educativo voltado para iniciantes em programação,  sendo recomendado a partir dos 8 anos de idade, incluindo estudantes de graduação que precisam aprender programação. O jogo tem como objetivo ensinar conceitos de programação de forma lúdica e interativa, utilizando fases, desafios e recompensas que estimulam o jogador a aprender e se motivar de forma divertida.
 
-
+_____________________________________
+**FLUXOGRAMAS**
+[clique aqui](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 _____________________________________
 **Funcionalidades**
 
