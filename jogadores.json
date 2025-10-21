@@ -4,5 +4,11 @@
         "senha": "@Amo12",
         "nivel": 1,
         "fase": 1
+    },
+    "DANIELLE": {
+        "data_nascimento": null,
+        "senha": "Danielle@",
+        "nivel": 1,
+        "fase": 1
     }
 }

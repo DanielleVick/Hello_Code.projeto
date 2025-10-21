@@ -37,7 +37,7 @@ jogadores = {}
 historico = []
 xp = 0
 nivel = 1
-meta_xp = 100
+meta_xp = 60
 logado = False
 
 
