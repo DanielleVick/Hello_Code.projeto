@@ -24,13 +24,15 @@ _____________________________________
 
 ***1ª Realease***
 
-  •  Menu inicial 
+    •   Menu inicial 
   
 	•	Cadastro e login de usuários (CRUD)
   
-  • Menu principal 
+    •   Menu principal 
   
-	•	Tutorial adaptado ao nível de conhecimento (iniciante, intermediário, avançado)
+    •   Menu de jogadores
+  
+	•	Tutorial adaptado ao nível de cada fase 
   
 	•	Sistema básico de pontuação
   
@@ -54,8 +56,8 @@ _____________________________________
 **Diferenciais do Projeto**
 
 	•	Conteúdo em português, acessível para iniciantes
-	•	Mini jogos inspirados em brincadeiras brasileiras
-	•	Tutorial adaptado ao nível do jogador
+	•	Mini jogos inspirados em brincadeiras brasileiras 
+	•	Tutorial adaptado ao nível de cada fase
 
   _____________________________________
 **Tecnologias utilizadas**
@@ -68,14 +70,19 @@ _____________________________________
 
 * re
   - utilizada para validar as senhas dos jogadores, garantindo que sigam os requisitos, evitando que utilizem caracteres inválidos na senha
+    
 * os
   - utilizada para limpar a tela do terminal durante o jogo
+    
 * time
   - utilizada para criar pequenas pausas entre mensagens, dando tempo para o jogador ler efeitos como "Carregando dados salvos..."
+    
 * json
   - utilizada para salvar e carregar os dados dos jogadores em um arquivo externo, permitindo que os dados fiquem salvos mesmo depois que o jogo é fechado
+    
 * sys
    - utilizada apenas no menu inicial para sair do jogo
+     
 * datetime
   - utilizada no cadastro para manipular e validar a data de nascimento dos jogadores
 
