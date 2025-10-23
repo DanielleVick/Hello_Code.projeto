@@ -39,7 +39,12 @@ _____________________________________
 	•	Fase 1: Introdução à lógica de programação
   
 	•	Fase 2: Conceitos básicos
+***Release 1.1 - Melhorias aplicadas*** 
 
+    •  Exibir mensagem de erro quando o jogador tenta acessar uma fase bloqueada
+	•  Exibir mensagem de erro nas fases
+	•  Implementar cores
+	
 ***2ª Release***
 
 	•	Fase 3: Estruturas condicionais (if/else)
@@ -66,24 +71,32 @@ _____________________________________
 * Git
 * GitHub  
 _____________________________________
-**📖 Biblioteca**
+**📖 Bibliotecas**
 
-* re
-  - utilizada para validar as senhas dos jogadores, garantindo que sigam os requisitos, evitando que utilizem caracteres inválidos na senha
+* regex
+  
+  Utilizada para validar as senhas dos jogadores, garantindo que sigam os requisitos, evitando que utilizem caracteres inválidos na senha
     
 * os
-  - utilizada para limpar a tela do terminal durante o jogo
+  
+  Utilizada para limpar a tela do terminal durante o jogo
     
 * time
-  - utilizada para criar pequenas pausas entre mensagens, dando tempo para o jogador ler efeitos como "Carregando dados salvos..."
+  
+  Utilizada para criar pequenas pausas entre mensagens, dando tempo para o jogador ler efeitos como "Carregando dados salvos..."
     
 * json
-  - utilizada para salvar e carregar os dados dos jogadores em um arquivo externo, permitindo que os dados fiquem salvos mesmo depois que o jogo é fechado
+  
+  Utilizada para salvar e carregar os dados dos jogadores em um arquivo externo, permitindo que os dados fiquem salvos mesmo depois que o jogo é fechado
     
 * sys
-   - utilizada apenas no menu inicial para sair do jogo
+  
+  Utilizada apenas no menu inicial para sair do jogo
      
 * datetime
-  - utilizada no cadastro para manipular e validar a data de nascimento dos jogadores
-
-
+  
+  Utilizada no cadastro para manipular e validar a data de nascimento dos jogadores
+    
+* colorama
+  
+  Utilizada para colorir o texto no terminal 
