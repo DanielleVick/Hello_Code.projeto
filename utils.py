@@ -10,13 +10,13 @@ def carregar_jogadores():
         with open("jogadores.json", "r") as arquivo:
             try:
                 jogadores = json.load(arquivo)
-                print(cor("Carregando dados salvos...", "azul"))
+                print(cor("Carregando dados salvos...", "verde"))
                 time.sleep(2.0)
             except json.JSONDecodeError:
                 print(cor("Arquivo corrompido. Iniciando vazio...", "vermelho"))
                 jogadores = {}
     else:
-        print(cor("Arquivo não encontrado. Iniciando vazio...", "azul"))
+        print(cor("Arquivo não encontrado. Iniciando vazio...", "vermelho"))
         time.sleep(2.0)
         jogadores = {}
 
@@ -34,7 +34,7 @@ def limpar_tela():
 
 # ------------------- Iniciar jogo -------------------
 def iniciar_jogo():
-    print("Iniciando o jogo...")
+    print(cor("Iniciando o jogo...", "azul"))
     time.sleep(2.0)
     limpar_tela()
 

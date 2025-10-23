@@ -25,7 +25,7 @@ meta_xp = 60
 logado = False
 
 # ------------------- EXECUÇÃO PRINCIPAL -------------------
-
+iniciar_jogo()
 carregar_jogadores()  
 
 while True:
