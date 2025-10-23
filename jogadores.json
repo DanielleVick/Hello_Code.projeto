@@ -10,5 +10,11 @@
         "senha": "Danielle@",
         "nivel": 1,
         "fase": 1
+    },
+    "SARA": {
+        "data_nascimento": null,
+        "senha": "While@",
+        "nivel": 1,
+        "fase": 1
     }
 }

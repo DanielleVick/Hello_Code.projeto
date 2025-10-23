@@ -1,78 +1,41 @@
 # ------------------- IMPORTS -------------------
-import re
 import sys
 import time
-import json
-import os
-from datetime import datetime
-
-from core import tutorial
-from core.fase1 import fase_1
-from core.fase2 import fase_2
-from core.main import teste_nivel
-
-# ------------------- JSON --------------------------------
-def carregar_jogadores():
-    global jogadores
-    if os.path.exists("jogadores.json"):
-        with open("jogadores.json", "r") as arquivo:
-            try:
-                jogadores = json.load(arquivo)
-                print("Carregando dados salvos...")
-                time.sleep(2.0)
-            except json.JSONDecodeError:
-                print("Arquivo corrompido. Iniciando vazio...")
-                jogadores = {}
-    else:
-        print("Arquivo não encontrado. Iniciando vazio...")
-        time.sleep(2.0)
-        jogadores = {}
-
-def salvar_jogadores():
-    with open("jogadores.json", "w") as arquivo:
-        json.dump(jogadores, arquivo, indent=4)
-
 # ------------------- VARIÁVEIS GLOBAIS -------------------
-jogadores = {}
-historico = []
-xp = 0
-nivel = 1
-meta_xp = 60
 logado = False
+# ----------------- FUNÇÕES -----------------
+from utils import limpar_tela
+from auth import atualizar_jogador
+from niveis_conhecimento import teste_nivel
+from tutorial import tutorial 
+from fase1 import fase_1
+from fase2 import fase_2
 
-
-# ------------------- FUNÇÕES DE UTILIDADE -------------------
-def limpar_tela():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
-# ------------------- INÍCIO -------------------
-def iniciar_jogo():
-    limpar_tela()
+# -------------------- COLORIR TEXTO ------------------------
+from utils import cor
 
 # ------------------- MENU INICIAL -------------------
 def menu_inicial():
     global logado
     limpar_tela()
-    print("Bem-vindo(a) ao Hello Code!")
-    print("\n===== MENU INICIAL =====")
+    print(cor("Bem-vindo(a) ao Hello Code!", "roxo"))
+    print(cor("\n===== MENU INICIAL =====", "rosa"))
     print("1. Cadastro")
     print("2. Login")
-    print("3. Sair")
+    print(cor("3. Sair", "vermelho"))
 
 # ------------------- MENU PRINCIPAL -------------------
 def menu_principal():
     fase2_liberada = False
     while True:
         limpar_tela()
-        print("\n===== MENU PRINCIPAL =====")
+        print(cor("\n===== MENU PRINCIPAL =====", "rosa"))
         print("1. Selecionar o nível de conhecimento")
         print("2. Seguir para tutorial adaptado")
         print("3. Ir para Fase 1")
         print(f"4. Ir para Fase 2 {'(Bloqueada)' if not fase2_liberada else ''}")
-        print("5. Sair")
-        opcao = input("Escolha: ").strip()
+        print(cor("5. Sair", "vermelho"))
+        opcao = input(cor("Escolha: ", "azul")).strip()
 
         if opcao == "1":
             teste_nivel()
@@ -83,11 +46,33 @@ def menu_principal():
             fase2_liberada = True
         elif opcao == "4":
             if not fase2_liberada:
-                print("\nA fase 2 ainda não está liberada! Complete a fase 1 primeiro.")
+                print(cor("\nA fase 2 ainda não está liberada! Complete a fase 1 primeiro.", "vermelho"))
+                time.sleep(3.0)
             else:
                 fase_2()
         elif opcao == "5":
-            print("Saindo do jogo...")
+            print(cor("Saindo do jogo...", "azul"))
             sys.exit()
         else:
-            print("Opção inválida. Digite novamente.")
+            print(cor("Opção inválida. Digite novamente.", "vermelho"))
+
+# ------------------- MENU DE JOGADORES -------------------
+def menu():
+    limpar_tela()
+    while True:
+        print(cor("\n===== MENU DE JOGADORES =====", "rosa"))
+        print("1. Atualizar jogador")
+        print("2. Ir para o menu principal")
+        print(cor("3. Sair", "vermelho"))
+        opcao = input(cor("Escolha uma opção: ", "azul")).strip()
+
+        if opcao == "1":
+            atualizar_jogador()
+        elif opcao == "2":
+            menu_principal()
+            break
+        elif opcao == "3":
+            print(cor("Saindo do jogo...", "azul"))
+            sys.exit()
+        else:
+            print(cor("Opção inválida. Digite novamente.", "vermelho"))

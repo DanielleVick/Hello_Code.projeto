@@ -1,50 +1,8 @@
-# ------------------- IMPORTS -------------------
-import re
-import sys
-import time
-import json
-import os
-from datetime import datetime
+# ----------------- LIMPAR TELA -----------------
+from utils import limpar_tela
 
-# ------------------- JSON --------------------------------
-def carregar_jogadores():
-    global jogadores
-    if os.path.exists("jogadores.json"):
-        with open("jogadores.json", "r") as arquivo:
-            try:
-                jogadores = json.load(arquivo)
-                print("Carregando dados salvos...")
-                time.sleep(2.0)
-            except json.JSONDecodeError:
-                print("Arquivo corrompido. Iniciando vazio...")
-                jogadores = {}
-    else:
-        print("Arquivo não encontrado. Iniciando vazio...")
-        time.sleep(2.0)
-        jogadores = {}
-
-def salvar_jogadores():
-    with open("jogadores.json", "w") as arquivo:
-        json.dump(jogadores, arquivo, indent=4)
-
-# ------------------- VARIÁVEIS GLOBAIS -------------------
-jogadores = {}
-historico = []
-xp = 0
-nivel = 1
-meta_xp = 60
-logado = False
-# ------------------- FUNÇÕES DE UTILIDADE -------------------
-def limpar_tela():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
-    
-# ------------------- INÍCIO -------------------
-def iniciar_jogo():
-    limpar_tela()
-
+# -------------------- COLORIR TEXTO ------------------------
+from utils import cor
 #-------------------- TUTORIAL ADAPTADO DE ACORDO COM A FASE ------------------------
 def mostrar_texto_pausado(texto):
     """Mostra um texto longo e espera o jogador apertar Enter para continuar."""
@@ -52,22 +10,22 @@ def mostrar_texto_pausado(texto):
     input("Pressione Enter para voltar às instruções...")
 
 def tutorial():
-    print("=========TUTORIAL DO JOGO=========")
-    print("=========Fase 01: Lógica de programação==========")
+    print(cor("=========TUTORIAL DO JOGO=========", "roxo"))
+    print(cor("=========Fase 01: Lógica de programação==========", "rosa"))
     print("1 - Nível 01: Organizar passos em ordem lógica (como uma receita).")
     print("2 - Nível 02: Cartas viradas com conceitos básicos ou símbolos.")
     print("3 - Nível 03: Seguir uma sequência lógica de raciocínio, verificando cada passo para evitar falhas.")
-    print("=========Fase 02: Lógica de programação==========")
+    print(cor("=========Fase 02: Lógica de programação==========", "rosa"))
     print("4 - Nível 01: Combine os frascos corretamente para criar a fórmula usando operações matemáticas.")
     print("5 - Nível 02: Use operadores matemáticos para combinar os valores dos baús e descobrir o total de moedas da ilha.")
     print("6 - Nível 03: Aprenda a usar funções criando blocos de código que recebem valores e retornam resultados, como misturar cristais ou poções..")
-    print("7 - Sair")
+    print(cor("7 - Sair", "azul"))
     input("Pressione Enter para continuar...")
 
     limpar_tela()
 
     while True:
-        escolha = input("Escolha uma opção (1-7): ").strip()
+        escolha = input(cor("Escolha uma opção (1-7): ", "azul")).strip()
 
         if escolha == "1":
             texto = (
@@ -126,7 +84,7 @@ def tutorial():
             mostrar_texto_pausado(texto)
             limpar_tela()
         elif escolha == "7":
-            print("\n Voltando ao menu principal...\n")
+            print(cor("\n Voltando ao menu principal...\n", "azul"))
             break
         else:
-            print("\n Opção inválida! Tente novamente. \n")
+            print(cor("\n Opção inválida! Tente novamente. \n", "vermelho"))
