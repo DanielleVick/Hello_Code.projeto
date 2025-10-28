@@ -6,7 +6,7 @@ jogadores = {}
 logado = False
 
 # ----------------- LIMPAR TELA -----------------
-from utils import limpar_tela, salvar_jogadores
+from utils import limpar_tela, salvar_jogadores, carregar_jogadores
 
 # -------------------- COLORIR TEXTO ------------------------
 from utils import cor
@@ -59,19 +59,23 @@ def verificar_usuario(nome, senha):
     return nome in jogadores and jogadores[nome]["senha"] == senha
 
 def login():
-    global logado
+    global logado, jogadores
+    jogadores = carregar_jogadores() 
     limpar_tela()
     print(cor("===== LOGIN =====", "roxo"))
-    usuario = input("Digite seu usuário: ").strip()
+    usuario = input("Digite seu usuário: ").strip().upper()  
     senha = input("Digite sua senha: ").strip()
 
     if verificar_usuario(usuario, senha):
         print(cor("Login bem-sucedido!", "verde"))
         logado = True
         input("Pressione Enter para continuar...")
+        from menu import menu_principal
+        menu_principal()
     else:
         print(cor("Usuário ou senha incorretos.", "vermelho"))
         input("Pressione Enter para tentar novamente...")
+
 
 # ------------------- ATUALIZAÇÃO -------------------
 def atualizar_jogador():

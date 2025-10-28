@@ -5,22 +5,23 @@ import json
 from colorama import Fore, Style, init
 # ------------------- JSON --------------------------------
 def carregar_jogadores():
-    global jogadores
     if os.path.exists("jogadores.json"):
         with open("jogadores.json", "r") as arquivo:
             try:
                 jogadores = json.load(arquivo)
                 print(cor("Carregando dados salvos...", "verde"))
                 time.sleep(2.0)
+                return jogadores
             except json.JSONDecodeError:
                 print(cor("Arquivo corrompido. Iniciando vazio...", "vermelho"))
-                jogadores = {}
+                return {}
     else:
         print(cor("Arquivo não encontrado. Iniciando vazio...", "vermelho"))
         time.sleep(2.0)
-        jogadores = {}
+        return {}
 
 def salvar_jogadores():
+    global jogadores
     with open("jogadores.json", "w") as arquivo:
         json.dump(jogadores, arquivo, indent=4)
         

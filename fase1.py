@@ -16,7 +16,6 @@ def passar_nivel():
         xp -= meta_xp
         meta_xp += 100
         print(f"Parabéns! Você subiu para o nível {nivel}!")
-        print(f"Próximo nível em {meta_xp} XP.")
 
 # ------------------ FASE 1 ----------------------
 def fase_1():

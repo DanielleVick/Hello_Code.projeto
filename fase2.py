@@ -46,13 +46,22 @@ Cuidado com as combinações!""")
             print(f"{f}: {v}")
 
         operacao = input(cor("\nEscolha a operação (somar/multiplicar): ", "azul")).strip().lower()
-        f1 = input("Escolha o primeiro frasco (A/B/C): ").strip().upper()
-        f2 = input("Escolha o segundo frasco (A/B/C): ").strip().upper()
-
-        if f1 not in frascos or f2 not in frascos or operacao not in ['somar','multiplicar']:
-            print(cor("PUF...! Algo está errado! Tente novamente.", "vermelho"))
+        if operacao not in ['somar','multiplicar']:
+            print(cor("Operação inválida. Escolha 'somar' ou 'multiplicar'.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
             continue
-
+        
+        f1 = input("Escolha o primeiro frasco (A/B/C): ").strip().upper()
+        if f1 not in frascos:
+            print(cor("Primeiro frasco inválido. Escolha A, B ou C.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue
+        
+        f2 = input("Escolha o segundo frasco (A/B/C): ").strip().upper()
+        if f2 not in frascos:
+            print(cor("Segundo frasco inválido. Escolha A, B ou C.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue
         if operacao == 'somar':
             resultado = frascos[f1] + frascos[f2]
             print(cor("BOOM!!!", "verde"))
@@ -84,15 +93,31 @@ Um símbolo errado… e você fica preso na ilha!\n""")
             print(f"Baú {b}: {v} moedas")
 
         operacao = input(cor("\nEscolha a operação (somar/multiplicar/resto): ", "azul")).strip().lower()
-        try:
-            b1 = int(input("Escolha o primeiro baú (1/2/3): ").strip())
-            b2 = int(input("Escolha o segundo baú (1/2/3): ").strip())
-        except ValueError:
-            print(cor("Entrada inválida. Digite números válidos.", "vermelho"))
+        if operacao not in ['somar','multiplicar','resto']:
+            print(cor("Operação inválida. Escolha 'somar', 'multiplicar' ou 'resto'.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
             continue
 
-        if b1 not in baus or b2 not in baus or operacao not in ['somar','multiplicar','resto']:
-            print(cor("Algo está errado! Tente novamente.", "vermelho"))
+        try:
+            b1 = int(input("Escolha o primeiro baú (1/2/3): ").strip())
+        except ValueError:
+            print(cor("Primeiro baú inválido. Digite 1, 2 ou 3.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue
+        if b1 not in baus:
+            print(cor("Primeiro baú fora das opções (1, 2, 3).", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue
+        
+        try:
+            b2 = int(input("Escolha o segundo baú (1/2/3): ").strip())
+        except ValueError:
+           print(cor("Segundo baú inválido. Digite 1, 2 ou 3.", "vermelho"))
+           input("\nPressione Enter para tentar de novo...")
+           continue
+        if b2 not in baus:
+            print(cor("Erro no Nível 2 — Segundo baú fora das opções (1, 2, 3).", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
             continue
 
         if operacao == 'somar':
@@ -104,9 +129,11 @@ Um símbolo errado… e você fica preso na ilha!\n""")
         elif operacao == 'resto':
             if baus[b2] == 0:
                 print(cor("Não é possível dividir por zero.", "vermelho"))
+                input("\nPressione Enter para tentar de novo...")
                 continue
             resultado = baus[b1] % baus[b2]
-
+            print(f"Resultado = {baus[b1]} % {baus[b2]} = {resultado}")
+            
         print(f"Resultado da operação: {resultado}")
         print(cor("\nParabéns! Você completou o desafio da ilha.", "verde"))
         xp += 20
@@ -129,16 +156,29 @@ Se enviar os ingredientes certos… ela te dará o número final!\n""")
               \nValores recebidos: 4 e 6
               Cálculo realizado: soma
               Resultado = 4 + 6 = 10""")
-        print("""\n
+        print(cor("""\n
 Agora é a sua vez! Envie os valores 7 e 9 
-para a função e solucione o resultado.""")
+para a função e solucione o resultado.""", "rosa"))
         try:
-            valor1 = int(input("Digite o primeiro valor recebido: "))   
+            valor1 = int(input("Digite o primeiro valor recebido: ")) 
+        except ValueError:
+            print(cor("Primeiro valor inválido. Digite um número.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue 
+        
+        try: 
             valor2 = int(input("Digite o segundo valor recebido: "))
+        except ValueError:
+            print(cor("Segundo valor inválido. Digite um número.", "vermelho"))
+            input("\nPressione Enter para tentar de novo...")
+            continue
+        
+        try:
             resposta = int(input("Digite o resultado da mistura de 7 e 9: ").strip())
         except ValueError:
             print(cor("Digite apenas números. Tente novamente.", "vermelho"))
             continue
+        
         if {valor1, valor2} == {7,9} and resposta == 16:
             print(f"\nResultado = {valor1} + {valor2} = {resposta}")
             print(cor("\nParabéns! Você entendeu o conceito de função.", "verde"))

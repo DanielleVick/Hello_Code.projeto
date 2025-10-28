@@ -19,7 +19,7 @@ def tutorial():
     print("4 - Nível 01: Combine os frascos corretamente para criar a fórmula usando operações matemáticas.")
     print("5 - Nível 02: Use operadores matemáticos para combinar os valores dos baús e descobrir o total de moedas da ilha.")
     print("6 - Nível 03: Aprenda a usar funções criando blocos de código que recebem valores e retornam resultados, como misturar cristais ou poções..")
-    print(cor("7 - Sair", "azul"))
+    print("7 - Sair")
     input("Pressione Enter para continuar...")
 
     limpar_tela()

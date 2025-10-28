@@ -22,7 +22,7 @@ def menu_inicial():
     print(cor("\n===== MENU INICIAL =====", "rosa"))
     print("1. Cadastro")
     print("2. Login")
-    print(cor("3. Sair", "vermelho"))
+    print("3. Sair")
 
 # ------------------- MENU PRINCIPAL -------------------
 def menu_principal():
@@ -34,7 +34,7 @@ def menu_principal():
         print("2. Seguir para tutorial adaptado")
         print("3. Ir para Fase 1")
         print(f"4. Ir para Fase 2 {'(Bloqueada)' if not fase2_liberada else ''}")
-        print(cor("5. Sair", "vermelho"))
+        print("5. Sair")
         opcao = input(cor("Escolha: ", "azul")).strip()
 
         if opcao == "1":
@@ -47,7 +47,7 @@ def menu_principal():
         elif opcao == "4":
             if not fase2_liberada:
                 print(cor("\nA fase 2 ainda não está liberada! Complete a fase 1 primeiro.", "vermelho"))
-                time.sleep(3.0)
+                input("Pressione Enter para escolher uma opção válida")
             else:
                 fase_2()
         elif opcao == "5":
@@ -63,7 +63,7 @@ def menu():
         print(cor("\n===== MENU DE JOGADORES =====", "rosa"))
         print("1. Atualizar jogador")
         print("2. Ir para o menu principal")
-        print(cor("3. Sair", "vermelho"))
+        print("3. Sair")
         opcao = input(cor("Escolha uma opção: ", "azul")).strip()
 
         if opcao == "1":
