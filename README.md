@@ -13,7 +13,7 @@ Docente responsável: Cleyton Magalhães
 _____________________________________
 **Descrição do projeto**
 
-Hello Code! é um jogo educativo voltado para iniciantes em programação,  sendo recomendado a partir dos 8 anos de idade, incluindo estudantes de graduação que precisam aprender programação. O jogo tem como objetivo ensinar conceitos de programação de forma lúdica e interativa, utilizando fases, desafios e recompensas que estimulam o jogador a aprender e se motivar de forma divertida.
+"Hello, Code!" é um jogo educativo voltado para iniciantes em programação,  sendo recomendado a partir dos 8 anos de idade, incluindo estudantes de graduação que precisam aprender programação. O jogo tem como objetivo ensinar conceitos de programação de forma lúdica e interativa, utilizando fases, desafios e recompensas que estimulam o jogador a aprender e se motivar de forma divertida.
 
 _____________________________________
 **FLUXOGRAMAS**
