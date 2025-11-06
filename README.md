@@ -15,13 +15,6 @@ _____________________________________
 
 "Hello, Code!" é um jogo educativo voltado para iniciantes em programação,  sendo recomendado a partir dos 8 anos de idade, incluindo estudantes de graduação que precisam aprender programação. O jogo tem como objetivo ensinar conceitos de programação de forma lúdica e interativa, utilizando fases, desafios e recompensas que estimulam o jogador a aprender e se motivar de forma divertida.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanielleVick/DanielleVick/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanielleVick/DanielleVick/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/DanielleVick/DanielleVick/output/pacman-contribution-graph.svg">
-</picture>
-
-###
 _____________________________________
 **FLUXOGRAMAS**
 
