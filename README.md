@@ -73,30 +73,30 @@ _____________________________________
 _____________________________________
 **📖 Bibliotecas**
 
-* regex
+* Regex
   
   Utilizada para validar as senhas dos jogadores, garantindo que sigam os requisitos, evitando que utilizem caracteres inválidos na senha
     
-* os
+* Os
   
   Utilizada para limpar a tela do terminal durante o jogo
     
-* time
+* Time
   
   Utilizada para criar pequenas pausas entre mensagens, dando tempo para o jogador ler efeitos como "Carregando dados salvos..."
     
-* json
+* Json
   
   Utilizada para salvar e carregar os dados dos jogadores em um arquivo externo, permitindo que os dados fiquem salvos mesmo depois que o jogo é fechado
     
-* sys
+* Sys
   
   Utilizada apenas no menu inicial para sair do jogo
      
-* datetime
+* Datetime
   
   Utilizada no cadastro para manipular e validar a data de nascimento dos jogadores
     
-* colorama
+* Colorama
   
   Utilizada para colorir o texto no terminal 
