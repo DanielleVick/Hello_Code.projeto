@@ -1,0 +1,37 @@
+{
+  "PAULO ÇAÇÍ": {
+    "data_nascimento": null,
+    "senha": "@Amo12",
+    "nivel": 1,
+    "fase": 1
+  },
+  "DANIELLE": {
+    "data_nascimento": null,
+    "senha": "Danielle@",
+    "nivel": 1,
+    "fase": 4,
+    "xp": 780,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "SARA": {
+    "data_nascimento": null,
+    "senha": "While@",
+    "nivel": 1,
+    "fase": 1
+  },
+  "ESTER": {
+    "data_nascimento": "31/12/2006",
+    "senha": "Ester@",
+    "nivel": 2,
+    "fase": 5,
+    "xp": 800,
+    "nivel_conhecimento": "Avançado"
+  },
+  "JENNI": {
+    "data_nascimento": "23/12/2000",
+    "senha": "Jenni@",
+    "nivel": 1,
+    "fase": 1,
+    "xp": 0
+  }
+}
