@@ -82,7 +82,7 @@ _____________________________________
 	•   Ranking
 	
 ***3ª Release***
-  * Efeito sonoro 
+  * Sons de erro e vitória 
   * Interface do jogo 
   * ⁠Montagem do computador virtual como recompensa final
   * Mini jogo: pedra, papel e tesoura
