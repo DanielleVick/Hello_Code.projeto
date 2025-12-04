@@ -8,6 +8,7 @@
 * **Equipe:** Danielle Victória, Ester Souza e Larissa Galindo
 * **Docente responsável:** Cleyton Magalhães
 
+
 📘 ***Descrição do Projeto***
 
 **"Hello, Code!"** é um jogo educativo criado para ensinar lógica de programação de forma simples, divertida e acessível.
@@ -15,9 +16,11 @@ Indicado para crianças a partir de 8 anos, jovens e até estudantes universitá
 
 O jogador avança por fases, desafios e mini jogos que reforçam conceitos básicos de programação — tudo de forma visual, leve e interativa.
 
+
 📊 ***FLUXOGRAMAS***
 
 🔗 [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+
 
 🖼️ ***Prints do Jogo***
 
@@ -35,9 +38,10 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
   
 
 
+
 🧰 ***Pré-requisitos***
 
-* **Antes de rodar o jogo, você precisa ter instalado:**
+**Antes de rodar o jogo, você precisa ter instalado:**
 
 * Python 3.10 até 3.12
 
@@ -45,34 +49,34 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
 
 **⚠️ O Pygame ainda não é compatível com Python acima da versão 3.12.**
 
+
 🕹️ ***Como instalar o Pygame***
 
-* **1. Abra o terminal do VSCode**
+**1. Abra o terminal do VSCode**
 
 Use o método garantido:
 
-* Menu superior → Terminal → Novo Terminal
+ * Menu superior → Terminal → Novo Terminal
 
-* **2. Instale o Pygame**
+**2. Instale o Pygame**
   
-* pip install pygame
+ * pip install pygame
 
-* **3. Teste se o Pygame está funcionando**
+**3. Teste se o Pygame está funcionando**
   
-* python -m pygame.examples.aliens
-
-
+ * python -m pygame.examples.aliens
 **Se abrir uma janelinha com o mini game “Aliens”, a instalação deu certo.**
+
 
 🎯 ***Como Jogar***
 
-* **Abra a pasta do projeto no VSCode**
+**Abra a pasta do projeto no VSCode**
 
 Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 **Execute o jogo clicando em:**
 
-* Executar (geralmente uma setinha no canto superior direito)
+ * Executar (geralmente uma setinha de "play" no canto superior direito)
 
 **O jogo vai abrir a interface gráfica construída no Pygame**
 
@@ -108,6 +112,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Fase 2: Conceitos básicos
 
+
 ***Release 1.1 — Melhorias***
 
 * Mensagens de erro nas fases
@@ -116,6 +121,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Cores implementadas
 
+
 ***2ª Release***
 
 * Fase 3: Estruturas condicionais
@@ -123,6 +129,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * Fase 4: Estruturas de repetição
 
 * Ranking dos jogadores
+
 
 ***3ª Release***
 
@@ -134,6 +141,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Mini jogo: Pedra, papel e tesoura
 
+
 🌟 ***Diferenciais do Projeto***
 
 * Todo conteúdo em português
@@ -144,6 +152,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Sistema de nível e progressão
 
+
 🔧 ***Tecnologias Utilizadas***
 
 * Python
@@ -153,6 +162,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * VSCode
 
 * Git & GitHub
+
 
 📚 ***Bibliotecas e Suas Funções***
 
