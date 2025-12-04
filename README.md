@@ -1,119 +1,164 @@
 ![FOTO DA EQUIPE](https://i.postimg.cc/c46mV8jg/imagemgt.jpg)
 
-# Hello_Code.projeto 🎮
+🎮 ***Hello, Code!***
 
-Repositório para o projeto Hello Code! 
+**Repositório oficial do jogo Hello, Code!**
 
-Disciplina: PISI I - Projeto Interdisciplinar para Sistemas de Informação I
+* **Disciplina:** PISI I – Projeto Interdisciplinar para Sistemas de Informação I
+* **Equipe:** Danielle Victória, Ester Souza e Larissa Galindo
+* **Docente responsável:** Cleyton Magalhães
 
-Equipe: Danielle Victória, Ester Souza e Larissa Galindo
+📘 ***Descrição do Projeto***
 
-Docente responsável: Cleyton Magalhães
+**"Hello, Code!"** é um jogo educativo criado para ensinar lógica de programação de forma simples, divertida e acessível.
+Indicado para crianças a partir de 8 anos, jovens e até estudantes universitários iniciantes.
 
-_____________________________________
-**Descrição do projeto**
+O jogador avança por fases, desafios e mini jogos que reforçam conceitos básicos de programação — tudo de forma visual, leve e interativa.
 
-"Hello, Code!" é um jogo educativo voltado para iniciantes em programação,  sendo recomendado a partir dos 8 anos de idade, incluindo estudantes de graduação que precisam aprender programação. O jogo tem como objetivo ensinar conceitos de programação de forma lúdica e interativa, utilizando fases, desafios e recompensas que estimulam o jogador a aprender e se motivar de forma divertida.
+📊 ***FLUXOGRAMAS***
 
-_____________________________________
-**FLUXOGRAMAS**
+🔗 **Clique aqui:** (https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 
-[Clique aqui](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+🖼️ ***Prints do Jogo***
 
-_____________________________________
+* **TELA INICIAL**
+  [![printtelainicial.png](https://i.postimg.cc/C55pk41F/printtelainicial.png)](https://postimg.cc/vgJKdffj)
 
-***Pré-requisitos para jogar***
+* **MENU PRINCIPAL**
+  [![menuprincipal.png](https://i.postimg.cc/rmhvVt9n/menuprincipal.png)](https://postimg.cc/34vL9NVm)
 
-**Antes de rodar o jogo, é necessário ter:**
-
- * Python (versão 3.10 até 3.12)
-
- *  Pygame
-
-⚠️ Atenção: O Pygame ainda não é compatível com versões do Python acima da 3.12.
-
-***Instalando o Pygame***
-
-**Passo 1: Abrir o terminal**
-
-**Passo 2: Instalar o Pygame**
-
-**Digite o comando abaixo e pressione Enter:**
-
- * pip install pygame
-
-**Passo 3: Testar a instalação**
-
-**Para verificar se o Pygame está funcionando, digite:**
-
- * python -m pygame.examples.aliens
-
-Se abrir uma janela do jogo “Aliens”, significa que o Pygame foi instalado corretamente e está pronto para uso.
-_____________________________________
-**Funcionalidades**
-
-***1ª Realease***
-
-    •   Menu inicial 
+* **RECOMPENSA POR NÍVEL (ex: Fase 1- Nível 1)**
+  [![recompensa1.png](https://i.postimg.cc/s20g81Z8/recompensa1.png)](https://postimg.cc/VSnw0fgB)
   
-	•	Cadastro e login de usuários (CRUD)
-  
-    •   Menu principal 
-  
-    •   Menu de jogadores
-  
-	•	Tutorial adaptado ao nível de cada fase 
-  
-	•	Sistema básico de pontuação
-  
-	•	Fase 1: Introdução à lógica de programação
-  
-	•	Fase 2: Conceitos básicos
-***Release 1.1 - Melhorias aplicadas*** 
 
-    •  Exibir mensagem de erro quando o jogador tenta acessar uma fase bloqueada
-	•  Exibir mensagem de erro nas fases
-	•  Implementar cores
-	
+
+🧰 ***Pré-requisitos***
+
+* **Antes de rodar o jogo, você precisa ter instalado:**
+
+* Python 3.10 até 3.12
+
+* Pygame
+
+**⚠️ O Pygame ainda não é compatível com Python acima da versão 3.12.**
+
+🕹️ ***Como instalar o Pygame***
+
+* **1. Abra o terminal do VSCode**
+
+Use o método garantido:
+
+* Menu superior → Terminal → Novo Terminal
+
+* **2. Instale o Pygame**
+  
+* pip install pygame
+
+* **3. Teste se o Pygame está funcionando**
+  
+* python -m pygame.examples.aliens
+
+
+**Se abrir uma janelinha com o mini game “Aliens”, a instalação deu certo.**
+
+🎯 ***Como Jogar***
+
+* **Abra a pasta do projeto no VSCode**
+
+Dentro da pasta do jogo, abra o arquivo **gui_main.py**
+
+**Execute o jogo clicando em:**
+
+* Executar (geralmente uma setinha no canto superior direito)
+
+**O jogo vai abrir a interface gráfica construída no Pygame**
+
+* Criar sua conta
+
+* Fazer login
+
+* Navegar pelo menu
+  
+* Jogar as fases disponíveis no menu principal do jogo (se tiver dúvidas, acessar o tutorial também disponível no menu principal)
+
+* Ganhar pontos para avançar até montar o computador final
+
+* Jogar o mini jogo de pedra, papel e tesoura
+ 
+
+🛠️ ***Funcionalidades***
+***1ª Release***
+
+* Menu inicial
+
+* Cadastro e login (CRUD básico)
+
+* Menu principal
+
+* Menu de jogadores
+
+* Tutorial adaptado
+
+* Sistema de pontuação
+
+* Fase 1: Introdução à lógica
+
+* Fase 2: Conceitos básicos
+
+***Release 1.1 — Melhorias***
+
+* Mensagens de erro nas fases
+
+* Mensagens ao tentar acessar fases bloqueadas
+
+* Cores implementadas
+
 ***2ª Release***
 
-	•	Fase 3: Estruturas condicionais (if/else)
-	•	Fase 4: Estruturas de repetição
-	•   Ranking
-	
+* Fase 3: Estruturas condicionais
+
+* Fase 4: Estruturas de repetição
+
+* Ranking dos jogadores
+
 ***3ª Release***
-  * Sons de erro e vitória 
-  * Interface do jogo 
-  * ⁠Montagem do computador virtual como recompensa final
-  * Mini jogo: pedra, papel e tesoura
-_____________________________________
-**Diferenciais do Projeto**
 
-	•	Conteúdo em português, acessível para iniciantes
-	•	Mini jogos inspirados em brincadeiras brasileiras 
-	•	Tutorial adaptado ao nível de cada fase
+* Sons de erro e vitória
 
-  _____________________________________
-**Tecnologias utilizadas**
+* Interface gráfica completa
+
+* Em cada nível o jogador ganha uma peça de hardware/periféricos 
+
+* Mini jogo: Pedra, papel e tesoura
+
+🌟 ***Diferenciais do Projeto***
+
+* Todo conteúdo em português
+
+* Mini jogos (desafios extras)
+
+* Tutoriais para cada nível
+
+* Sistema de nível e progressão
+
+🔧 ***Tecnologias Utilizadas***
+
 * Python
-* VsCode
-* Git
-* GitHub  
-_____________________________________
-**📖 Bibliotecas**
 
-**Regex:** Validação de senhas dos jogadores, garantindo conformidade e evitando caracteres inválidos
+* Pygame
 
-**Os:** Limpar a tela do terminal durante o jogo
+* VSCode
 
-**Time:** Criar pequenas pausas entre mensagens, permitindo que o jogador leia efeitos como "Carregando dados salvos..."
+* Git & GitHub
 
-**Json:** Salvar e carregar os dados dos jogadores em arquivo externo
+📚 ***Bibliotecas e Suas Funções***
+Biblioteca   |	Uso no Projeto
+Regex	     |  Validação de senhas
+OS	         |  Manipular pastas e limpar terminal
+Time	     |  Criar pausas e efeitos
+Json	     |  Salvar jogadores
+Sys	         |  Encerrar o jogo
+Datetime	 |  Verificação de data de nascimento
+Pygame	     |  Interface gráfica, áudio e tela
 
-**Sys:** Encerrar o jogo pelo menu inicial
-
-**Datetime:** Manipular e validar datas de nascimento dos jogadores
-
-**Colorama:** Colorir textos no terminal
-
-**Pygame:** Criar a interface do jogo
+(Colorama removido, pois agora tudo é interface gráfica. Mas sua função era dar cor aos textos.)
