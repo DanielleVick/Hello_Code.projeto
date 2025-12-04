@@ -1,13 +1,14 @@
 ![FOTO DA EQUIPE](https://i.postimg.cc/c46mV8jg/imagemgt.jpg)
-
+___________________________________________________________________
 🎮 ***Hello, Code!***
-
+___________________________________________________________________
 **Repositório oficial do jogo Hello, Code!**
 
 * **Disciplina:** PISI I – Projeto Interdisciplinar para Sistemas de Informação I
 * **Equipe:** Danielle Victória, Ester Souza e Larissa Galindo
 * **Docente responsável:** Cleyton Magalhães
 
+___________________________________________________________________
 
 📘 ***Descrição do Projeto***
 
@@ -16,29 +17,31 @@ Indicado para crianças a partir de 8 anos, jovens e até estudantes universitá
 
 O jogador avança por fases, desafios e mini jogos que reforçam conceitos básicos de programação — tudo de forma visual, leve e interativa.
 
+___________________________________________________________________
 
 📊 ***FLUXOGRAMAS***
 
 🔗 [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 
+___________________________________________________________________
 
 🖼️ ***Prints do Jogo***
 
 * ***TELA INICIAL***
   
   [![printtelainicial.png](https://i.postimg.cc/C55pk41F/printtelainicial.png)](https://postimg.cc/vgJKdffj)
-
+___________________________________________________________________
 * ***MENU PRINCIPAL***
   
   [![menuprincipal.png](https://i.postimg.cc/rmhvVt9n/menuprincipal.png)](https://postimg.cc/34vL9NVm)
-
+___________________________________________________________________
 * ***RECOMPENSA POR NÍVEL (ex: Fase 1- Nível 1)***
   
   [![recompensa1.png](https://i.postimg.cc/s20g81Z8/recompensa1.png)](https://postimg.cc/VSnw0fgB)
   
 
 
-
+___________________________________________________________________
 🧰 ***Pré-requisitos***
 
 **Antes de rodar o jogo, você precisa ter instalado:**
@@ -49,6 +52,7 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
 
 **⚠️ O Pygame ainda não é compatível com Python acima da versão 3.12.**
 
+___________________________________________________________________
 
 🕹️ ***Como instalar o Pygame***
 
@@ -65,8 +69,10 @@ Use o método garantido:
 **3. Teste se o Pygame está funcionando**
   
  * python -m pygame.examples.aliens
+   
 **Se abrir uma janelinha com o mini game “Aliens”, a instalação deu certo.**
 
+___________________________________________________________________
 
 🎯 ***Como Jogar***
 
@@ -92,8 +98,10 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Jogar o mini jogo de pedra, papel e tesoura
  
+___________________________________________________________________
 
 🛠️ ***Funcionalidades***
+
 ***1ª Release***
 
 * Menu inicial
@@ -111,7 +119,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * Fase 1: Introdução à lógica
 
 * Fase 2: Conceitos básicos
-
+___________________________________________________________________
 
 ***Release 1.1 — Melhorias***
 
@@ -120,7 +128,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * Mensagens ao tentar acessar fases bloqueadas
 
 * Cores implementadas
-
+___________________________________________________________________
 
 ***2ª Release***
 
@@ -129,7 +137,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * Fase 4: Estruturas de repetição
 
 * Ranking dos jogadores
-
+___________________________________________________________________
 
 ***3ª Release***
 
@@ -141,6 +149,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Mini jogo: Pedra, papel e tesoura
 
+___________________________________________________________________
 
 🌟 ***Diferenciais do Projeto***
 
@@ -152,6 +161,7 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Sistema de nível e progressão
 
+___________________________________________________________________
 
 🔧 ***Tecnologias Utilizadas***
 
@@ -163,14 +173,22 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 
 * Git & GitHub
 
+___________________________________________________________________
 
 📚 ***Bibliotecas e Suas Funções***
 
-**Regex:** Validação de senhas
-**OS:** Manipular pastas e limpar terminal
-**Time:** Criar pausas e efeitos
-**Json:**	Salvar os dados dos jogadores
-**Sys:** Encerrar o jogo
-**Datetime:** Verificação de data de nascimento
-**Pygame:**	Interface gráfica, áudio e tela
+* **Regex:** Validação de senhas
+  
+* **OS:** Manipular pastas e limpar terminal
+  
+* **Time:** Criar pausas e efeitos
+  
+* **Json:**	Salvar os dados dos jogadores
+  
+* **Sys:** Encerrar o jogo
+  
+* **Datetime:** Verificação de data de nascimento
+  
+* **Pygame:**	Interface gráfica, áudio e tela
+  
 (Colorama removido, pois agora tudo é interface gráfica. Mas sua função era dar cor aos textos.)
