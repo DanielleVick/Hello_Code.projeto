@@ -17,7 +17,7 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
 
 📊 ***FLUXOGRAMAS***
 
-🔗 [**Clique aqui:**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+🔗 [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 
 🖼️ ***Prints do Jogo***
 
