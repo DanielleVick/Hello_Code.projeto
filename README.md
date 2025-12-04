@@ -17,17 +17,20 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
 
 📊 ***FLUXOGRAMAS***
 
-🔗 **Clique aqui:** (https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+🔗 [**Clique aqui:**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 
 🖼️ ***Prints do Jogo***
 
-* **TELA INICIAL**
+* ***TELA INICIAL***
+  
   [![printtelainicial.png](https://i.postimg.cc/C55pk41F/printtelainicial.png)](https://postimg.cc/vgJKdffj)
 
-* **MENU PRINCIPAL**
+* ***MENU PRINCIPAL***
+  
   [![menuprincipal.png](https://i.postimg.cc/rmhvVt9n/menuprincipal.png)](https://postimg.cc/34vL9NVm)
 
-* **RECOMPENSA POR NÍVEL (ex: Fase 1- Nível 1)**
+* ***RECOMPENSA POR NÍVEL (ex: Fase 1- Nível 1)***
+  
   [![recompensa1.png](https://i.postimg.cc/s20g81Z8/recompensa1.png)](https://postimg.cc/VSnw0fgB)
   
 
@@ -152,13 +155,12 @@ Dentro da pasta do jogo, abra o arquivo **gui_main.py**
 * Git & GitHub
 
 📚 ***Bibliotecas e Suas Funções***
-Biblioteca   |	Uso no Projeto
-Regex	     |  Validação de senhas
-OS	         |  Manipular pastas e limpar terminal
-Time	     |  Criar pausas e efeitos
-Json	     |  Salvar jogadores
-Sys	         |  Encerrar o jogo
-Datetime	 |  Verificação de data de nascimento
-Pygame	     |  Interface gráfica, áudio e tela
 
+**Regex:** Validação de senhas
+**OS:** Manipular pastas e limpar terminal
+**Time:** Criar pausas e efeitos
+**Json:**	Salvar os dados dos jogadores
+**Sys:** Encerrar o jogo
+**Datetime:** Verificação de data de nascimento
+**Pygame:**	Interface gráfica, áudio e tela
 (Colorama removido, pois agora tudo é interface gráfica. Mas sua função era dar cor aos textos.)
