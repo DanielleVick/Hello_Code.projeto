@@ -56,19 +56,10 @@ ___________________________________________________________________
 
 🕹️ ***Como instalar o Pygame***
 
-**1. Abra o terminal do VSCode**
-
-Use o método garantido:
-
- * Menu superior → Terminal → Novo Terminal
-
-**2. Instale o Pygame**
-  
- * pip install pygame
-
-**3. Teste se o Pygame está funcionando**
-  
- * python -m pygame.examples.aliens
+| **Abra o terminal do VSCode** |  Menu superior → Terminal → Novo Terminal |
+|-------------------------------|-------------------------------------------|
+| **Instale o Pygame**          |  pip install pygame                       |
+| **Teste de funcionamento**    | python -m pygame.examples.aliens          | 
    
 **Se abrir uma janelinha com o mini game “Aliens”, a instalação deu certo.**
 
@@ -175,20 +166,23 @@ ___________________________________________________________________
 
 ___________________________________________________________________
 
-📚 ***Bibliotecas e Suas Funções***
+📚 ***Bibliotecas utilizadas***
 
-* **Regex:** Validação de senhas
-  
-* **OS:** Manipular pastas e limpar terminal
-  
-* **Time:** Criar pausas e efeitos
-  
-* **Json:**	Salvar os dados dos jogadores
-  
-* **Sys:** Encerrar o jogo
-  
-* **Datetime:** Verificação de data de nascimento
-  
-* **Pygame:**	Interface gráfica, áudio e tela
-  
+
+| **BIBLIOTECAS** | **FUNÇÃO** |
+|-----------------|------------|  
+|  **Regex**      | Validação de senhas |
+|                 |                     |
+|  **OS**         | Manipular pastas e limpar terminal |
+|                 |                     |
+|  **Time**       | Criar pausas e efeitos |
+|                 |                     |
+|  **Json**	      | Salvar os dados dos jogadores |
+|                 |                     |
+|  **Sys**        | Encerrar o jogo |
+|                 |                     |
+| **Datetime**    | Verificação de data de nascimento |
+|                 |                     |
+| **Pygame**      | Interface gráfica, áudio e tela |
+
 (Colorama removido, pois agora tudo é interface gráfica. Mas sua função era dar cor aos textos.)
