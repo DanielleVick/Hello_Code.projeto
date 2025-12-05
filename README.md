@@ -19,9 +19,15 @@ O jogador avança por fases, desafios e mini jogos que reforçam conceitos bási
 
 ___________________________________________________________________
 
-📊 ***FLUXOGRAMAS***
+📊 ***FLUXOGRAMAS 1ª Release***
 
-🔗 [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+➯ [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
+
+___________________________________________________________________
+
+📄 ***ARTIGO DO PROJETO***
+
+➯ [**Clique aqui**](https://drive.google.com/file/d/1CBEy56gnjxWDp2Qz4Fl-8-7ImQVmn06u/view)
 
 ___________________________________________________________________
 
