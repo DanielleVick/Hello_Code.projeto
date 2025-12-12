@@ -108,4 +108,5 @@ ___________________________________________________________________
 |  **Sys** | Encerrar o jogo | 
 | **Datetime** | Verificação de data de nascimento | 
 |  **Pygame** | Interface gráfica, áudio e tela |
+
 (Colorama removido, pois agora tudo é interface gráfica. Mas sua função era dar cor aos textos.)
