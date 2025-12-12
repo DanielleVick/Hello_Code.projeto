@@ -1,0 +1,85 @@
+{
+  "PAULO ÇAÇÍ": {
+    "data_nascimento": null,
+    "senha": "@Amo12",
+    "nivel": 1,
+    "fase": 1
+  },
+  "DANIELLE": {
+    "data_nascimento": null,
+    "senha": "Danielle@",
+    "nivel": 1,
+    "fase": 4,
+    "xp": 920,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "SARA": {
+    "data_nascimento": null,
+    "senha": "While@",
+    "nivel": 1,
+    "fase": 1
+  },
+  "ESTER": {
+    "data_nascimento": "31/12/2006",
+    "senha": "Ester@",
+    "nivel": 2,
+    "fase": 5,
+    "xp": 1980,
+    "nivel_conhecimento": "Avançado"
+  },
+  "JENNI": {
+    "data_nascimento": "23/12/2000",
+    "senha": "Jenni@",
+    "nivel": 1,
+    "fase": 1,
+    "xp": 0
+  },
+  "CLEYTON": {
+    "data_nascimento": "24/08/2000",
+    "senha": "Cleyton@",
+    "nivel": 1,
+    "fase": 5,
+    "xp": 300,
+    "nivel_conhecimento": "Avançado"
+  },
+  "LAISA": {
+    "data_nascimento": "31/12/2006",
+    "senha": "Laisa@",
+    "nivel": 1,
+    "fase": 4,
+    "xp": 440,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "MARIA": {
+    "data_nascimento": "31/12/2007",
+    "senha": "mARIA@",
+    "nivel": 1,
+    "fase": 1,
+    "xp": 0,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "VANUT": {
+    "data_nascimento": "31/12/2006",
+    "senha": "Vanut@",
+    "nivel": 1,
+    "fase": 5,
+    "xp": 300,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "LARISSA": {
+    "data_nascimento": "20/09/2006",
+    "senha": "L@rissa",
+    "nivel": 1,
+    "fase": 1,
+    "xp": 60,
+    "nivel_conhecimento": "Iniciante"
+  },
+  "LEO": {
+    "data_nascimento": "20/12/2000",
+    "senha": "Leozinho@",
+    "nivel": 1,
+    "fase": 5,
+    "xp": 0,
+    "nivel_conhecimento": "Iniciante"
+  }
+}
