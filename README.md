@@ -11,20 +11,25 @@ ___________________________________________________________________
 
 **"Hello, Code!"** é um jogo educativo criado para ensinar lógica de programação de forma simples, divertida e acessível. Indicado para crianças a partir de 8 anos, jovens e até estudantes universitários iniciantes. O jogador avança por fases, desafios e mini jogos que reforçam conceitos básicos de programação — tudo de forma visual, leve e interativa. 
 ___________________________________________________________________ 
-📊 ***FLUXOGRAMAS 1ª Release*** 
+📊 ***FLUXOGRAMAS 1ª Release***
+
 ➯ [**Clique aqui**](https://drive.google.com/drive/folders/1PfA0AoejKdAkSRUqeEfIfg0l1KKbEITI?usp=sharing)
 ___________________________________________________________________ 
 📄 ***ARTIGO DO PROJETO*** 
+
 ➯ [**Clique aqui**](https://drive.google.com/file/d/1CBEy56gnjxWDp2Qz4Fl-8-7ImQVmn06u/view) 
 ___________________________________________________________________ 
 🖼️ ***Prints do Jogo*** 
 * ***TELA INICIAL***
+  
  [![printtelainicial.png](https://i.postimg.cc/C55pk41F/printtelainicial.png)](https://postimg.cc/vgJKdffj)
 ___________________________________________________________________
  * ***MENU PRINCIPAL***
+   
  [![menuprincipal.png](https://i.postimg.cc/rmhvVt9n/menuprincipal.png)](https://postimg.cc/34vL9NVm)
 ___________________________________________________________________
  * ***RECOMPENSA POR NÍVEL (ex: Fase 1- Nível 1)***
+   
 [![recompensa1.png](https://i.postimg.cc/s20g81Z8/recompensa1.png)](https://postimg.cc/VSnw0fgB)
 ___________________________________________________________________
  🧰 ***Pré-requisitos***
@@ -38,6 +43,7 @@ ___________________________________________________________________
 |-------------------------------|-------------------------------------------|
 | **Instale o Pygame**          | pip install pygame                        | 
 | **Teste de funcionamento**    | python -m pygame.examples.aliens          | 
+
 **Se abrir uma janelinha com o mini game “Aliens”, a instalação deu certo.**
 ___________________________________________________________________ 
 🎯 ***Como Jogar***
